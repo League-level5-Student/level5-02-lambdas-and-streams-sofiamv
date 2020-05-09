@@ -25,7 +25,10 @@ public class LambdaMethods {
 			System.out.println(a);
 		}, "horse");
 		//3. Call the printCustonMessage method using a lambda so that the String prints with a mix between upper an lower case characters.
+		printCustomMessage((s) ->{
+		char[]b =s.toCharArray();
 		
+		}, "horse");
 		//4. Call the printCustonMessage method using a lambda so that the String prints with a period in between each character.
 		
 		//5. Call the printCustonMessage method using a lambda so that the String prints without any vowels.
