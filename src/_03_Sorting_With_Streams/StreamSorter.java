@@ -18,10 +18,6 @@ public class StreamSorter {
 		
 		//3. Use the forEach method with a lambda to print all the elements of the sorted Stream.
 		//   They should be in ascending order.
-		Arrays.stream(nums).sorted().forEach(s -> {
-			for(int i = 0; i < nums.length; i++) {
-			System.out.println(Arrays.stream(nums).sorted().toString());
-			}
-		});
+		Arrays.stream(nums).sorted().forEach(s -> System.out.println(s));
 }
 }
